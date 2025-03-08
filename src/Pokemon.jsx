@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import PokemonCards from "./PokemonCards";
 import "./index.css";
-const API = "https://pokeapi.co/api/v2/pokemon?limit=24";
+const API = "https://pokeapi.co/api/v2/pokemon?limit=124";
 
 export default function Pokemon(){
 
@@ -60,7 +60,7 @@ export default function Pokemon(){
   return (
     <section className="container">
       <header>
-        <h1>Lets Catch Pokemon</h1>
+        <h1>Ria's Pokedex</h1>
       </header>
       <div>
         <ul className="cards">
