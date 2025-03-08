@@ -27,4 +27,4 @@ dist-ssr
 #files
 Pokemon.jsx
 PokemonCards.jsx
-style.css
+index.css
